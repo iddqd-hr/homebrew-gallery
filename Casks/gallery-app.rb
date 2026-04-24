@@ -1,8 +1,8 @@
 cask "gallery-app" do
-  version "20260424.3"
-  sha256 "6d576fa9a7dcbc6eb9ee49d87a8c6ca3ad29c6a3a9e1447a0081f7983576765b"
+  version "20260424.4"
+  sha256 "c8d3599b5e7d1d3bb15d410d9e99d2b24e58cbec856e2b33fe47fd0556a6c80d"
 
-  url "https://iddqd.blob.core.windows.net/gallery-releases/20260424.3/GalleryApp-d0c0cd9.dmg?se=2027-04-24T13%3A34Z&sp=r&sv=2026-02-06&sr=b&sig=dQB8KfcR0HTLPOIzzAmiZnvsuU5Bnbmhh4rKbtLrjLA%3D"
+  url "https://iddqd.blob.core.windows.net/gallery-releases/20260424.4/GalleryApp-v0.1.1.dmg?se=2027-04-24T19%3A18Z&sp=r&sv=2026-02-06&sr=b&sig=otIQL3d0Y84ZVvY%2F%2F5hJDtvqNRH8s%2FNaG7Mpd%2Frn99E%3D"
   name "Gallery App"
   desc "Photo organization app with face clustering, scene detection, and EXIF tagging"
   homepage "https://dev.azure.com/iddqd-hr/claudegallery"
