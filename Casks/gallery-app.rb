@@ -1,8 +1,8 @@
 cask "gallery-app" do
-  version "20260423.8"
-  sha256 "85595903076c55636e64523935bcd98a2726d861663c40d280e9d35f1bdd01a0"
+  version "20260424.3"
+  sha256 "6d576fa9a7dcbc6eb9ee49d87a8c6ca3ad29c6a3a9e1447a0081f7983576765b"
 
-  url "https://iddqd.blob.core.windows.net/gallery-releases/20260423.8/GalleryApp-28ec081.dmg?se=2027-04-23T19%3A11Z&sp=r&sv=2022-11-02&sr=b&sig=mYflkc%2FFijYAvVcl8JnxgAVRDaNfKod9q4A6tGGY2XE%3D"
+  url "https://iddqd.blob.core.windows.net/gallery-releases/20260424.3/GalleryApp-d0c0cd9.dmg?se=2027-04-24T13%3A34Z&sp=r&sv=2026-02-06&sr=b&sig=dQB8KfcR0HTLPOIzzAmiZnvsuU5Bnbmhh4rKbtLrjLA%3D"
   name "Gallery App"
   desc "Photo organization app with face clustering, scene detection, and EXIF tagging"
   homepage "https://dev.azure.com/iddqd-hr/claudegallery"
@@ -14,8 +14,8 @@ cask "gallery-app" do
   postflight do
     # Remove quarantine flag (app is unsigned)
     system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/gallery_app.app"],
-                   sudo: false
+     args: ["-cr", "#{appdir}/gallery_app.app"],
+     sudo: false
   end
 
   zap trash: [
